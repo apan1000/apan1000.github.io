@@ -1,0 +1,29 @@
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+::selection {
+	color: #c33;
+	background: #333;
+}
+
+.flex-container {
+	 display: -webkit-box;
+	display: -moz-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-flex-direction: row;
+	-moz-box-flex-direction: row;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	height: 100%;
+	background-color: #0050a0;
+}
+
+.flex-item {
+	margin: auto;
+	color: white;
+	font-size: 16pt;
+	font-family: Arial, Sans-Serif;
+}
